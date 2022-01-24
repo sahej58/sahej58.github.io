@@ -1,0 +1,63 @@
+/*
+default theme: https://coolors.co/0a369d-4472ca-5e7ce2-92b4f4-cfdee7
+dark theme: https://coolors.co/323031-3d3b3c-7f7979-244235-335c35
+light theme: https://coolors.co/eff9f0-ddc8c4-75485e-4e8098-96b6c5
+lavender them: https://coolors.co/231942-5e548e-9f86c0-be95c4-e0b1cb
+*/
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#5E7CE2;
+}
+main{
+	width:800px;
+	height:500px;
+	display:grid;
+	grid-template-rows:60px auto 50px;
+}
+#menu{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+	grid-gap:12px;
+}
+#menu > input{
+	background-color:#CFDEE7;
+	color:#4472CA;
+	font-weight:bold;
+	font-size:18px;
+	border-radius:10px;
+}
+#menu > input:hover{
+	background-color:#4472CA;
+	color:#CFDEE7;
+}
+section{
+	border:3px solid #5E548E;
+	background-color:#92B4F4;
+	border-radius:30px;
+	padding:20px;
+	color:#5E548E;
+}
+#theme{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	padding:10px;
+	grid-gap:12px;
+}
+#theme > input{
+	background-color:#CFDEE7;
+	color:#4472CA;
+	font-weight:bold;
+	font-size:18px;
+	border-radius:10px;
+}
+img{
+	width:200px;
+	height:200px;
+}
